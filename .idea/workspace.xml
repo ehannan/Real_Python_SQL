@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6a6c00-a7b6-4fd1-bc76-4f2cd107ee57" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Update_Delete.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cleanup.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/executemany.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new_table.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/select.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqld.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQL_math.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment3a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment3b.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Real_Python_SQL.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +19,10 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Real_Python_SQL$assignment3a.coverage" NAME="assignment3a Coverage Results" MODIFIED="1443927727103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Real_Python_SQL$new_table.coverage" NAME="new_table Coverage Results" MODIFIED="1443753052371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Real_Python_SQL$SQL_math.coverage" NAME="SQL_math Coverage Results" MODIFIED="1443928921487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Real_Python_SQL$assignment3b.coverage" NAME="assignment3b Coverage Results" MODIFIED="1443930427948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,7 +32,61 @@
     <favorites_list name="Real_Python_SQL" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="assignment3a.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assignment3a.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#91#105#0" expanded="true" />
+                <marker date="1443927749127" expanded="true" signature="339:367" placeholder="DROP TABLE i..." />
+                <marker date="1443927749127" expanded="true" signature="414:443" placeholder="CREATE TABLE..numbers..." />
+                <marker date="1443927749127" expanded="true" signature="532:551" placeholder="INSERT INTO ..." />
+                <marker date="1443927749127" expanded="true" signature="532:561" placeholder="INSERT INTO ..." />
+                <marker date="1443927749127" expanded="true" signature="605:619" placeholder="SELECT * FRO..integers..." />
+                <marker date="1443927749127" expanded="true" signature="605:626" placeholder="SELECT * FRO..numbers..." />
+                <marker date="1443927749127" expanded="true" signature="605:628" placeholder="SELECT * fro..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assignment3b.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assignment3b.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.030303031">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <marker date="1443930417179" expanded="true" signature="161:183" placeholder="SELECT avg(p..population..." />
+                <marker date="1443930417179" expanded="true" signature="161:190" placeholder="SELECT avg(n..numbers..." />
+                <marker date="1443930417179" expanded="true" signature="209:230" placeholder="SELECT max(p..population..." />
+                <marker date="1443930417179" expanded="true" signature="209:237" placeholder="SELECT max(n..numbers..." />
+                <marker date="1443930417179" expanded="true" signature="256:276" placeholder="SELECT min(n..." />
+                <marker date="1443930417179" expanded="true" signature="256:284" placeholder="SELECT min(n..numbers..." />
+                <marker date="1443930417179" expanded="true" signature="299:327" placeholder="SELECT sum(n..numbers..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQL_math.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SQL_math.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="29" selection-start-line="18" selection-start-column="7" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <marker date="1443924792863" expanded="true" signature="175:214" placeholder="SELECT avg(p..population..." />
+                <marker date="1443924792863" expanded="true" signature="240:278" placeholder="SELECT max(p..population..." />
+                <marker date="1443924792863" expanded="true" signature="304:342" placeholder="SELECT min(p..population..." />
+                <marker date="1443924792863" expanded="true" signature="364:402" placeholder="SELECT sum(p..population..." />
+                <marker date="1443924792863" expanded="true" signature="426:460" placeholder="SELECT count..population..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,6 +114,9 @@
         <option value="$PROJECT_DIR$/executemany.py" />
         <option value="$PROJECT_DIR$/new_table.py" />
         <option value="$PROJECT_DIR$/cleanup.py" />
+        <option value="$PROJECT_DIR$/SQL_math.py" />
+        <option value="$PROJECT_DIR$/assignment3a.py" />
+        <option value="$PROJECT_DIR$/assignment3b.py" />
       </list>
     </option>
   </component>
@@ -100,6 +156,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,7 +210,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,7 +218,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="Python.new_table">
+  <component name="RunManager" selected="Python.assignment3b">
     <configuration default="false" name="new_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,6 +233,60 @@
       <module name="Real_Python_SQL" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/new_table.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assignment3a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Real_Python_SQL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment3a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="assignment3b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Real_Python_SQL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignment3b.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SQL_math" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Real_Python_SQL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SQL_math.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -369,12 +479,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.new_table" />
+      <item index="1" class="java.lang.String" itemvalue="Python.assignment3a" />
+      <item index="2" class="java.lang.String" itemvalue="Python.assignment3b" />
+      <item index="3" class="java.lang.String" itemvalue="Python.SQL_math" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.new_table" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.assignment3b" />
+        <item index="1" class="java.lang.String" itemvalue="Python.SQL_math" />
+        <item index="2" class="java.lang.String" itemvalue="Python.assignment3a" />
+        <item index="3" class="java.lang.String" itemvalue="Python.new_table" />
       </list>
     </recent_temporary>
   </component>
@@ -402,16 +518,16 @@
     <frame x="57" y="24" width="654" height="744" extended-state="4" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22203948" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25657895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33064517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1983871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20645161" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -457,10 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1443752245131" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1443752245131" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..population..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -513,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sqla.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/bin/activate.fish">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -531,20 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqlb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8076923">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqlc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040089086">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -552,13 +643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sqld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7384988">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -576,16 +660,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/select.py">
+    <entry file="file://$PROJECT_DIR$/new_table.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.680203">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.53747326">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cleanup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.69164884">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8181818">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1443640932744" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1443640932744" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <marker date="1443644338197" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqla.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1443638210324" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..population..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqld.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6233766">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1443645328101" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..employees..." />
+            <marker date="1443645328101" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/executemany.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7202073">
+        <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <marker date="1443752245131" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
@@ -594,26 +727,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_table.py">
+    <entry file="file://$PROJECT_DIR$/select.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53747326">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.76623374">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
-            <marker date="1443753127451" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..regions..." />
-            <marker date="1443753127451" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1443753127451" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1443753127451" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..region..." />
+            <marker date="1443647881850" expanded="true" signature="-1:-1" placeholder="SELECT first..employees..." />
+            <marker date="1443647881850" expanded="true" signature="-1:-1" placeholder="SELECT first..employees..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cleanup.py">
+    <entry file="file://$PROJECT_DIR$/assignment3a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69164884">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <marker date="1443753818935" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..population..." />
-            <marker date="1443753818935" expanded="true" signature="-1:-1" placeholder="SELECT DISTI..population..." />
+            <element signature="e#91#105#0" expanded="true" />
+            <marker date="1443927749127" expanded="true" signature="339:367" placeholder="DROP TABLE i..." />
+            <marker date="1443927749127" expanded="true" signature="414:443" placeholder="CREATE TABLE..numbers..." />
+            <marker date="1443927749127" expanded="true" signature="532:551" placeholder="INSERT INTO ..." />
+            <marker date="1443927749127" expanded="true" signature="532:561" placeholder="INSERT INTO ..." />
+            <marker date="1443927749127" expanded="true" signature="605:619" placeholder="SELECT * FRO..integers..." />
+            <marker date="1443927749127" expanded="true" signature="605:626" placeholder="SELECT * FRO..numbers..." />
+            <marker date="1443927749127" expanded="true" signature="605:628" placeholder="SELECT * fro..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL_math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="29" selection-start-line="18" selection-start-column="7" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1443924792863" expanded="true" signature="175:214" placeholder="SELECT avg(p..population..." />
+            <marker date="1443924792863" expanded="true" signature="240:278" placeholder="SELECT max(p..population..." />
+            <marker date="1443924792863" expanded="true" signature="304:342" placeholder="SELECT min(p..population..." />
+            <marker date="1443924792863" expanded="true" signature="364:402" placeholder="SELECT sum(p..population..." />
+            <marker date="1443924792863" expanded="true" signature="426:460" placeholder="SELECT count..population..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assignment3b.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030303031">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <marker date="1443930417179" expanded="true" signature="161:183" placeholder="SELECT avg(p..population..." />
+            <marker date="1443930417179" expanded="true" signature="161:190" placeholder="SELECT avg(n..numbers..." />
+            <marker date="1443930417179" expanded="true" signature="209:230" placeholder="SELECT max(p..population..." />
+            <marker date="1443930417179" expanded="true" signature="209:237" placeholder="SELECT max(n..numbers..." />
+            <marker date="1443930417179" expanded="true" signature="256:276" placeholder="SELECT min(n..." />
+            <marker date="1443930417179" expanded="true" signature="256:284" placeholder="SELECT min(n..numbers..." />
+            <marker date="1443930417179" expanded="true" signature="299:327" placeholder="SELECT sum(n..numbers..." />
           </folding>
         </state>
       </provider>
